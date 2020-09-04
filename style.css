@@ -15,10 +15,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(dodgerblue, orangered);
+  background: #00798c;
 }
 .container {
-  background: rgba(240, 240, 240, 0.45);
+  background: transparent;
   width: 800px;
   height: 500px;
   display: flex;
@@ -26,9 +26,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  box-shadow: 15px 15px 45px 20px rgba(75, 74, 74, 0.192);
-  /* opacity: 0%;
-  transform: scale(0.2); */
+  /* box-shadow: 15px 15px 45px 20px rgba(75, 74, 74, 0.192); */
   opacity: 1;
 }
 table {
@@ -36,21 +34,15 @@ table {
   border-spacing: 25px;
 }
 td {
-  border: 1px solid rgba(128, 128, 128, 0.404);
+  border: 1px solid #FCA417;
   width: 45px;
   height: 45px;
-  color: rgba(0, 0, 0, 0.356);
   position: relative;
   border-radius: 5px;
 }
 .clock {
-  background: orangered;
-  background: dodgerblue;
-
+  background: #FCA417;
   transition: 1s ease-in-out;
-}
-.dupa {
-  background: black;
 }
 .disabled {
   border: none;
@@ -69,30 +61,9 @@ td {
   background-color: none;
 }
 .off {
+  /* border: 1px solid #FCA417; */
   background-color: rgba(255, 68, 0, 0.877);
+  background-color: #fca417b6;
+  /* background-color: transparent; */
   transition: 0.2s ease-in-out;
-}
-
-.button {
-  position: absolute;
-  top: 10%;
-  background-color: rgba(30, 143, 255, 0.705);
-  padding: 15px;
-  width: 150px;
-  height: 50px;
-  text-align: center;
-  /* z-index: 2; */
-  transition: all 0.2s ease-in-out;
-  border-radius: 5px;
-  letter-spacing: 6px;
-  display: none;
-}
-.button:hover {
-  background-color: dodgerblue;
-  transform: scale(1.1);
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
-}
-.button:active {
-  transform: scale(1.05);
 }

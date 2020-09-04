@@ -194,12 +194,3 @@ function binarny() {
 // binarny();
 setInterval("binarny()", 1000);
 
-document.getElementById("button").addEventListener("click", enableClock);
-
-function enableClock() {
-  var enabledClock = document.getElementById("clockContainer");
-  enabledClock.style.opacity = "100%";
-  enabledClock.style.transform = "scale(1)";
-  enabledClock.style.transition = "all 2s ease";
-  document.getElementById("button").style.visibility = "hidden";
-}
