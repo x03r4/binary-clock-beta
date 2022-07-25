@@ -34,7 +34,7 @@ function binarny() {
   // sekundy
   let sec = now.getSeconds();
   sec = Number(sec);
-
+//test
   
 
   //funkcja, która uzupełnia puste miejsca w tablicy
