@@ -194,3 +194,4 @@ function binarny() {
 // binarny();
 setInterval("binarny()", 1000);
 
+//testuję 
